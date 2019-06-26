@@ -1,9 +1,9 @@
-﻿@{
-    int a, b, c;
-    string add;
-    a = 10;
-    b = 20;
-    c = a + b;
-    add = "Addition is :" + c;
-    <h2>@add</h2>
-}
+﻿<h2>Html helper</h2>
+<table border="1">
+    <tr><td> Name   </td><td>@Html.TextBox("Name")</td></tr>
+    <tr><td> Address   </td><td>@Html.TextArea("Address")</td></tr>
+    <tr><td> Language   </td><td>Tamil @Html.CheckBox("English") English @Html.CheckBox("Tamil")</td></tr>
+    <tr><td> Gender   </td><td>Male @Html.RadioButton("Gender", "male") female  @Html.RadioButton("Gender", "Female")</td></tr>
+
+
+</table>
