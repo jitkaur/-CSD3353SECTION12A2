@@ -26,6 +26,12 @@ namespace _737477.Controllers
 
             return View();
         }
+        public ActionResult page2()
+        {
+            ViewBag.Message = "new page.";
+
+            return View();
+        }
     }
     
 }
